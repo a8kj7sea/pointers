@@ -22,9 +22,7 @@ int main()
     
     long long bytes = convertMegaByteToByte(freeMemory);
     
-   
-    
-    for (long long x = 0 ;x < bytes;x++){
+    for (long long x = -(maxValue) ;x <= bytes;x++){
         *(ourPtr+x) = maxValue; // hehehe 
         cout << "" << ourPtr+x << "\n";
     }
